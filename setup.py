@@ -6,7 +6,7 @@ setup(
     py_modules=['convert'],
     install_requires=[
         'Click',
-        '-e git+ssh://git@github.com/ekvall93/tape.git@166e306c44256981507888dbd6715b7e2e339366#egg=tape_proteins',
+        'tape_proteins @ https://github.com/ekvall93/tape/tarball/master',
         'tensorflow-gpu==2.4.1',
         'torch==1.8.1',
         'tqdm==4.62.3',
